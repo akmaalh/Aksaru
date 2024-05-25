@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		163BF23C2BF4C40500EB3A68 /* AksaruApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163BF23B2BF4C40500EB3A68 /* AksaruApp.swift */; };
+		163BF23E2BF4C40500EB3A68 /* PredictView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163BF23D2BF4C40500EB3A68 /* PredictView.swift */; };
+		163BF2402BF4C40700EB3A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163BF23F2BF4C40700EB3A68 /* Assets.xcassets */; };
+		163BF2432BF4C40700EB3A68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163BF2422BF4C40700EB3A68 /* Preview Assets.xcassets */; };
+		163BF2502BF7626200EB3A68 /* CanvasViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163BF24F2BF7626200EB3A68 /* CanvasViewRepresentable.swift */; };
+		163BF2522BF7663900EB3A68 /* Aksarun.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 163BF2512BF7663800EB3A68 /* Aksarun.mlmodel */; };
+		163BF2632BFAFD0500EB3A68 /* Chubbo-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 163BF2592BFAFD0400EB3A68 /* Chubbo-Regular.otf */; };
+		163BF2642BFAFD0500EB3A68 /* Chubbo-ExtralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 163BF25A2BFAFD0400EB3A68 /* Chubbo-ExtralightItalic.otf */; };
+		163BF2652BFAFD0500EB3A68 /* Chubbo-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 163BF25B2BFAFD0400EB3A68 /* Chubbo-Italic.otf */; };
+		163BF2662BFAFD0500EB3A68 /* Chubbo-Extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 163BF25C2BFAFD0400EB3A68 /* Chubbo-Extralight.otf */; };
+		163BF2672BFAFD0500EB3A68 /* Chubbo-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 163BF25D2BFAFD0400EB3A68 /* Chubbo-BoldItalic.otf */; };
+		163BF2682BFAFD0500EB3A68 /* Chubbo-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 163BF25E2BFAFD0400EB3A68 /* Chubbo-Bold.otf */; };
+		163BF2692BFAFD0500EB3A68 /* Chubbo-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 163BF25F2BFAFD0400EB3A68 /* Chubbo-Light.otf */; };
+		163BF26A2BFAFD0500EB3A68 /* Chubbo-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 163BF2602BFAFD0400EB3A68 /* Chubbo-LightItalic.otf */; };
+		163BF26B2BFAFD0500EB3A68 /* Chubbo-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 163BF2612BFAFD0500EB3A68 /* Chubbo-Medium.otf */; };
+		163BF26C2BFAFD0500EB3A68 /* Chubbo-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 163BF2622BFAFD0500EB3A68 /* Chubbo-MediumItalic.otf */; };
+		163BF26E2BFB04F000EB3A68 /* AksarunV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 163BF26D2BFB04F000EB3A68 /* AksarunV2.mlmodel */; };
+		163BF2702BFB2D0700EB3A68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163BF26F2BFB2D0700EB3A68 /* ContentView.swift */; };
+		163BF2722BFB2E9100EB3A68 /* AksaruModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163BF2712BFB2E9100EB3A68 /* AksaruModel.swift */; };
+		163BF2742BFB3BDD00EB3A68 /* AksaruViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163BF2732BFB3BDD00EB3A68 /* AksaruViewModel.swift */; };
+		163BF2762BFB442D00EB3A68 /* LetterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163BF2752BFB442D00EB3A68 /* LetterListView.swift */; };
+		163BF2782BFB498800EB3A68 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163BF2772BFB498800EB3A68 /* QuizView.swift */; };
+		168F02002BFFE5B0001D3A6D /* AksarunV3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 168F01FF2BFFE5B0001D3A6D /* AksarunV3.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		163BF2382BF4C40500EB3A68 /* Aksaru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aksaru.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		163BF23B2BF4C40500EB3A68 /* AksaruApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AksaruApp.swift; sourceTree = "<group>"; };
+		163BF23D2BF4C40500EB3A68 /* PredictView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictView.swift; sourceTree = "<group>"; };
+		163BF23F2BF4C40700EB3A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		163BF2422BF4C40700EB3A68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		163BF24F2BF7626200EB3A68 /* CanvasViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewRepresentable.swift; sourceTree = "<group>"; };
+		163BF2512BF7663800EB3A68 /* Aksarun.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Aksarun.mlmodel; sourceTree = "<group>"; };
+		163BF2532BFA2EA900EB3A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		163BF2592BFAFD0400EB3A68 /* Chubbo-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chubbo-Regular.otf"; sourceTree = "<group>"; };
+		163BF25A2BFAFD0400EB3A68 /* Chubbo-ExtralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chubbo-ExtralightItalic.otf"; sourceTree = "<group>"; };
+		163BF25B2BFAFD0400EB3A68 /* Chubbo-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chubbo-Italic.otf"; sourceTree = "<group>"; };
+		163BF25C2BFAFD0400EB3A68 /* Chubbo-Extralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chubbo-Extralight.otf"; sourceTree = "<group>"; };
+		163BF25D2BFAFD0400EB3A68 /* Chubbo-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chubbo-BoldItalic.otf"; sourceTree = "<group>"; };
+		163BF25E2BFAFD0400EB3A68 /* Chubbo-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chubbo-Bold.otf"; sourceTree = "<group>"; };
+		163BF25F2BFAFD0400EB3A68 /* Chubbo-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chubbo-Light.otf"; sourceTree = "<group>"; };
+		163BF2602BFAFD0400EB3A68 /* Chubbo-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chubbo-LightItalic.otf"; sourceTree = "<group>"; };
+		163BF2612BFAFD0500EB3A68 /* Chubbo-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chubbo-Medium.otf"; sourceTree = "<group>"; };
+		163BF2622BFAFD0500EB3A68 /* Chubbo-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chubbo-MediumItalic.otf"; sourceTree = "<group>"; };
+		163BF26D2BFB04F000EB3A68 /* AksarunV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AksarunV2.mlmodel; sourceTree = "<group>"; };
+		163BF26F2BFB2D0700EB3A68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		163BF2712BFB2E9100EB3A68 /* AksaruModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AksaruModel.swift; sourceTree = "<group>"; };
+		163BF2732BFB3BDD00EB3A68 /* AksaruViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AksaruViewModel.swift; sourceTree = "<group>"; };
+		163BF2752BFB442D00EB3A68 /* LetterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterListView.swift; sourceTree = "<group>"; };
+		163BF2772BFB498800EB3A68 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		168F01FF2BFFE5B0001D3A6D /* AksarunV3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AksarunV3.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		163BF2352BF4C40500EB3A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		163BF22F2BF4C40500EB3A68 = {
+			isa = PBXGroup;
+			children = (
+				163BF23A2BF4C40500EB3A68 /* Aksaru */,
+				163BF2392BF4C40500EB3A68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		163BF2392BF4C40500EB3A68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				163BF2382BF4C40500EB3A68 /* Aksaru.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		163BF23A2BF4C40500EB3A68 /* Aksaru */ = {
+			isa = PBXGroup;
+			children = (
+				163BF2532BFA2EA900EB3A68 /* Info.plist */,
+				163BF23B2BF4C40500EB3A68 /* AksaruApp.swift */,
+				163BF23D2BF4C40500EB3A68 /* PredictView.swift */,
+				163BF2712BFB2E9100EB3A68 /* AksaruModel.swift */,
+				163BF2732BFB3BDD00EB3A68 /* AksaruViewModel.swift */,
+				163BF2752BFB442D00EB3A68 /* LetterListView.swift */,
+				163BF2772BFB498800EB3A68 /* QuizView.swift */,
+				163BF26F2BFB2D0700EB3A68 /* ContentView.swift */,
+				168F01FF2BFFE5B0001D3A6D /* AksarunV3.mlmodel */,
+				163BF26D2BFB04F000EB3A68 /* AksarunV2.mlmodel */,
+				163BF2582BFAFCE800EB3A68 /* Font Pack */,
+				163BF2512BF7663800EB3A68 /* Aksarun.mlmodel */,
+				163BF24F2BF7626200EB3A68 /* CanvasViewRepresentable.swift */,
+				163BF23F2BF4C40700EB3A68 /* Assets.xcassets */,
+				163BF2412BF4C40700EB3A68 /* Preview Content */,
+			);
+			path = Aksaru;
+			sourceTree = "<group>";
+		};
+		163BF2412BF4C40700EB3A68 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				163BF2422BF4C40700EB3A68 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		163BF2582BFAFCE800EB3A68 /* Font Pack */ = {
+			isa = PBXGroup;
+			children = (
+				163BF25E2BFAFD0400EB3A68 /* Chubbo-Bold.otf */,
+				163BF25D2BFAFD0400EB3A68 /* Chubbo-BoldItalic.otf */,
+				163BF25C2BFAFD0400EB3A68 /* Chubbo-Extralight.otf */,
+				163BF25A2BFAFD0400EB3A68 /* Chubbo-ExtralightItalic.otf */,
+				163BF25B2BFAFD0400EB3A68 /* Chubbo-Italic.otf */,
+				163BF25F2BFAFD0400EB3A68 /* Chubbo-Light.otf */,
+				163BF2602BFAFD0400EB3A68 /* Chubbo-LightItalic.otf */,
+				163BF2612BFAFD0500EB3A68 /* Chubbo-Medium.otf */,
+				163BF2622BFAFD0500EB3A68 /* Chubbo-MediumItalic.otf */,
+				163BF2592BFAFD0400EB3A68 /* Chubbo-Regular.otf */,
+			);
+			path = "Font Pack";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		163BF2372BF4C40500EB3A68 /* Aksaru */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163BF2462BF4C40700EB3A68 /* Build configuration list for PBXNativeTarget "Aksaru" */;
+			buildPhases = (
+				163BF2342BF4C40500EB3A68 /* Sources */,
+				163BF2352BF4C40500EB3A68 /* Frameworks */,
+				163BF2362BF4C40500EB3A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aksaru;
+			productName = Aksaru;
+			productReference = 163BF2382BF4C40500EB3A68 /* Aksaru.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		163BF2302BF4C40500EB3A68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					163BF2372BF4C40500EB3A68 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 163BF2332BF4C40500EB3A68 /* Build configuration list for PBXProject "Aksaru" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 163BF22F2BF4C40500EB3A68;
+			productRefGroup = 163BF2392BF4C40500EB3A68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				163BF2372BF4C40500EB3A68 /* Aksaru */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		163BF2362BF4C40500EB3A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163BF2642BFAFD0500EB3A68 /* Chubbo-ExtralightItalic.otf in Resources */,
+				163BF26C2BFAFD0500EB3A68 /* Chubbo-MediumItalic.otf in Resources */,
+				163BF2432BF4C40700EB3A68 /* Preview Assets.xcassets in Resources */,
+				163BF2692BFAFD0500EB3A68 /* Chubbo-Light.otf in Resources */,
+				163BF26B2BFAFD0500EB3A68 /* Chubbo-Medium.otf in Resources */,
+				163BF2662BFAFD0500EB3A68 /* Chubbo-Extralight.otf in Resources */,
+				163BF2652BFAFD0500EB3A68 /* Chubbo-Italic.otf in Resources */,
+				163BF2402BF4C40700EB3A68 /* Assets.xcassets in Resources */,
+				163BF2632BFAFD0500EB3A68 /* Chubbo-Regular.otf in Resources */,
+				163BF2672BFAFD0500EB3A68 /* Chubbo-BoldItalic.otf in Resources */,
+				163BF2682BFAFD0500EB3A68 /* Chubbo-Bold.otf in Resources */,
+				163BF26A2BFAFD0500EB3A68 /* Chubbo-LightItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		163BF2342BF4C40500EB3A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163BF2522BF7663900EB3A68 /* Aksarun.mlmodel in Sources */,
+				163BF2502BF7626200EB3A68 /* CanvasViewRepresentable.swift in Sources */,
+				163BF2702BFB2D0700EB3A68 /* ContentView.swift in Sources */,
+				163BF2742BFB3BDD00EB3A68 /* AksaruViewModel.swift in Sources */,
+				163BF23E2BF4C40500EB3A68 /* PredictView.swift in Sources */,
+				163BF2762BFB442D00EB3A68 /* LetterListView.swift in Sources */,
+				168F02002BFFE5B0001D3A6D /* AksarunV3.mlmodel in Sources */,
+				163BF23C2BF4C40500EB3A68 /* AksaruApp.swift in Sources */,
+				163BF2782BFB498800EB3A68 /* QuizView.swift in Sources */,
+				163BF26E2BFB04F000EB3A68 /* AksarunV2.mlmodel in Sources */,
+				163BF2722BFB2E9100EB3A68 /* AksaruModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		163BF2442BF4C40700EB3A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		163BF2452BF4C40700EB3A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		163BF2472BF4C40700EB3A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aksaru/Preview Content\"";
+				DEVELOPMENT_TEAM = 69R63P7AM6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aksaru/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = 1.0;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akmalee.Aksaru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		163BF2482BF4C40700EB3A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aksaru/Preview Content\"";
+				DEVELOPMENT_TEAM = 69R63P7AM6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aksaru/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = 1.0;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akmalee.Aksaru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		163BF2332BF4C40500EB3A68 /* Build configuration list for PBXProject "Aksaru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163BF2442BF4C40700EB3A68 /* Debug */,
+				163BF2452BF4C40700EB3A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		163BF2462BF4C40700EB3A68 /* Build configuration list for PBXNativeTarget "Aksaru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163BF2472BF4C40700EB3A68 /* Debug */,
+				163BF2482BF4C40700EB3A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 163BF2302BF4C40500EB3A68 /* Project object */;
+}
