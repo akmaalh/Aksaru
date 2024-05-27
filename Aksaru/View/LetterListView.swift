@@ -144,8 +144,7 @@ struct PracticeView: View {
 
         viewModel.predictionResult = result.target
         viewModel.showModal = true
-
-        print(result.target)
+        
         viewModel.submitAnswer(predictedLetter: result.target)
         clearCanvas()
     }

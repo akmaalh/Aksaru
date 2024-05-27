@@ -136,7 +136,7 @@ struct QuizView: View {
             return
         }
         
-        print(result.target)
+        
         viewModel.verifyAnswer(answer: result.target)
         clearCanvas()
     }

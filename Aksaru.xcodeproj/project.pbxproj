@@ -28,6 +28,7 @@
 		163BF2742BFB3BDD00EB3A68 /* AksaruViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163BF2732BFB3BDD00EB3A68 /* AksaruViewModel.swift */; };
 		163BF2762BFB442D00EB3A68 /* LetterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163BF2752BFB442D00EB3A68 /* LetterListView.swift */; };
 		163BF2782BFB498800EB3A68 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163BF2772BFB498800EB3A68 /* QuizView.swift */; };
+		16A6AF372C043700002CC5CC /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A6AF362C043700002CC5CC /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		163BF2732BFB3BDD00EB3A68 /* AksaruViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AksaruViewModel.swift; sourceTree = "<group>"; };
 		163BF2752BFB442D00EB3A68 /* LetterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterListView.swift; sourceTree = "<group>"; };
 		163BF2772BFB498800EB3A68 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		16A6AF362C043700002CC5CC /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,15 +90,14 @@
 			children = (
 				163BF2532BFA2EA900EB3A68 /* Info.plist */,
 				163BF23B2BF4C40500EB3A68 /* AksaruApp.swift */,
-				163BF2712BFB2E9100EB3A68 /* AksaruModel.swift */,
-				163BF2732BFB3BDD00EB3A68 /* AksaruViewModel.swift */,
-				163BF2752BFB442D00EB3A68 /* LetterListView.swift */,
-				163BF2772BFB498800EB3A68 /* QuizView.swift */,
+				16A6AF3A2C0437A0002CC5CC /* View */,
+				16A6AF392C043786002CC5CC /* Model */,
+				16A6AF382C04373D002CC5CC /* ViewModel */,
 				163BF26F2BFB2D0700EB3A68 /* ContentView.swift */,
 				163BF26D2BFB04F000EB3A68 /* AksarunV2.mlmodel */,
 				163BF2582BFAFCE800EB3A68 /* Font Pack */,
 				163BF2512BF7663800EB3A68 /* Aksarun.mlmodel */,
-				163BF24F2BF7626200EB3A68 /* CanvasViewRepresentable.swift */,
+				16A6AF3B2C0437C0002CC5CC /* Helper */,
 				163BF23F2BF4C40700EB3A68 /* Assets.xcassets */,
 				163BF2412BF4C40700EB3A68 /* Preview Content */,
 			);
@@ -126,6 +127,40 @@
 				163BF2592BFAFD0400EB3A68 /* Chubbo-Regular.otf */,
 			);
 			path = "Font Pack";
+			sourceTree = "<group>";
+		};
+		16A6AF382C04373D002CC5CC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				163BF2732BFB3BDD00EB3A68 /* AksaruViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		16A6AF392C043786002CC5CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				163BF2712BFB2E9100EB3A68 /* AksaruModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16A6AF3A2C0437A0002CC5CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				163BF2752BFB442D00EB3A68 /* LetterListView.swift */,
+				163BF2772BFB498800EB3A68 /* QuizView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16A6AF3B2C0437C0002CC5CC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				163BF24F2BF7626200EB3A68 /* CanvasViewRepresentable.swift */,
+				16A6AF362C043700002CC5CC /* Helper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +250,7 @@
 				163BF2762BFB442D00EB3A68 /* LetterListView.swift in Sources */,
 				163BF23C2BF4C40500EB3A68 /* AksaruApp.swift in Sources */,
 				163BF2782BFB498800EB3A68 /* QuizView.swift in Sources */,
+				16A6AF372C043700002CC5CC /* Helper.swift in Sources */,
 				163BF26E2BFB04F000EB3A68 /* AksarunV2.mlmodel in Sources */,
 				163BF2722BFB2E9100EB3A68 /* AksaruModel.swift in Sources */,
 			);
@@ -347,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Aksaru/Preview Content\"";
@@ -360,6 +397,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Aksaru/Preview Content\"";
@@ -391,6 +430,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
